@@ -1,0 +1,9 @@
+Scene Graph Node  :- 
+ Embed application in scene graph. In AR, user interaction is connected with the spatial environment.With this approach, the application is seamlessly embedded in theenvironment. A scene graph models the world around a user as a tree of nodes.Each node can be any type object, usually graphical ones. But there are alsonongraphical objects that include control code.Usability: Requiresscene graph-based renderer. The Scene Graph Node pattern handles the control flow to theunderlying scene graph platform. Using scene graph replication, this offers aneasy way for the implementation of shared applications for locally nearbyusers. The 3D interface can be shared among several users but displayed foreach from a different view. Requiresscene graph presentation pattern; may be implemented with using scripting.Known  Studierstube, Tinmith, MARS
+
+Directed Movement :- 
+Applications may require the user to move to certain locations Display	icon at	the	target location. Icon points to	the	target location, if	it	is	not	currently visible.  Structures AR	experience	and	guides users. May obstruct	other elements	and	cause screen clutter. Multiple	focus	points	require	Information	Filtering. System needs	awareness of the focus point position relative	to user	location and head rotation.
+
+
+Gaze Cursor :-
+Base actions on gaze,indicated with visual cursor. Select objects, complete	action  Guide interactions. Inaccurate	or lagging cursors may	mislead. Cursor	might obscure object of	interest. Tunnel vision	may be provoked.
